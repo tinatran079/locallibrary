@@ -1,42 +1,42 @@
-const BookInstance = require("../models/bookinstance");
+const Genre = require("../models/genre");
 const asyncHandler = require("express-async-handler");
 
-// Display list of all BookInstances
-exports.bookinstance_list = asyncHandler(async (req, res, next) => {
-  res.send("NOT IMPLEMENTED: BookInstance list");
+// Display list of all Genre.
+exports.genre_list = asyncHandler(async (req, res, next) => {
+  res.send("NOT IMPLEMENTED: Genre list");
 });
 
-// Display detail page for specific BookInstance
-exports.bookinstance_detail = asyncHandler(async (req, res, next) => {
-  res.send(`NOT IMPLEMENTED: BookInstance detail: ${req.params.id}`);
+// Display detail page for a specific Genre.
+exports.genre_detail = asyncHandler(async (req, res, next) => {
+  res.send(`NOT IMPLEMENTED: Genre detail: ${req.params.id}`);
 });
 
-// Display BookInstance create form on GET
-exports.bookinstance_create_get = asyncHandler(async (req, res, next) => {
-  res.send("NOT IMPLEMENTED: BookInstance create GET");
+// Display Genre create form on GET.
+exports.genre_create_get = asyncHandler(async (req, res, next) => {
+  res.send("NOT IMPLEMENTED: Genre create GET");
 });
 
-// Handle BookInstance create on POST
-exports.bookinstance_create_post = asyncHandler(async (req, res, next) => {
-  res.send("NOT IMPLEMENTED: BookInstance create POST");
+// Handle Genre create on POST.
+exports.genre_create_post = asyncHandler(async (req, res, next) => {
+  res.send("NOT IMPLEMENTED: Genre create POST");
 });
 
-// Display BookInstance delete form on GET
-exports.bookinstance_delete_get = asyncHandler(async (req, res, next) => {
-  res.send("NOT IMPLEMENTED: BookInstance delete GET");
+// Display Genre delete form on GET.
+exports.genre_delete_get = asyncHandler(async (req, res, next) => {
+  res.send("NOT IMPLEMENTED: Genre delete GET");
 });
 
-// Handle BookInstance delete on POST
-exports.bookinstance_delete_post = asyncHandler(async (req, res, next) => {
-  res.send("NOT IMPLEMENTED: BookInstance delete POST");
+// Handle Genre delete on POST.
+exports.genre_delete_post = asyncHandler(async (req, res, next) => {
+  res.send("NOT IMPLEMENTED: Genre delete POST");
 });
 
-// Display BookInstance update form on GET
-exports.bookinstance_update_get = asyncHandler(async (req, res, next) => {
-  res.send("NOT IMPLEMENTED: BookInstance update GET");
+// Display Genre update form on GET.
+exports.genre_update_get = asyncHandler(async (req, res, next) => {
+  res.send("NOT IMPLEMENTED: Genre update GET");
 });
 
-// Handle bookInstance update on POST
-exports.bookinstance_update_post = asyncHandler(async (req, res, next) => {
-  res.send("NOT IMPLEMENTED: BookInstance update POST");
+// Handle Genre update on POST.
+exports.genre_update_post = asyncHandler(async (req, res, next) => {
+  res.send("NOT IMPLEMENTED: Genre update POST");
 });
